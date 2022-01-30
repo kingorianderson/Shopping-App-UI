@@ -1,0 +1,2 @@
+(this.webpackJsonpnew=this.webpackJsonpnew||[]).push([[0],{9:function(e,n,t){"use strict";t.r(n);var c=t(1),r=t.n(c),i=t(3),s=t.n(i),o=t(0),d=function(){return Object(o.jsx)("div",{children:"Kingori!"})};s.a.render(Object(o.jsx)(r.a.StrictMode,{children:Object(o.jsx)(d,{})}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.c1f1ca20.chunk.js.map

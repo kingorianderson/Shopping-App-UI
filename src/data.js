@@ -1,21 +1,22 @@
+
 export const sliderItems = [
     {
       id: 1,
-      img: "https://i.ibb.co/cXFnLLV/3.png",
+      img: "https://doc-0g-28-docs.googleusercontent.com/docs/securesc/3dtb9qc2m2b7blg456v95s1uchfcsol5/o0ohalbkajn5inmg2p9v18mg8lfartor/1643635800000/12937131976522811804/12937131976522811804/1C0txQM6imuvnFFvlfQFYzr3DrWHbqxUl?e=download&authuser=0",
       title: "SUMMER SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "f5fafd",
     },
     {
       id: 2,
-      img: "https://i.ibb.co/DG69bQ4/2.png",
+      img: "https://doc-0k-28-docs.googleusercontent.com/docs/securesc/3dtb9qc2m2b7blg456v95s1uchfcsol5/rvrqkunl3166bqufimat3tstpnm2gin2/1643635800000/12937131976522811804/12937131976522811804/1pU7K4q8qSt1fkMFd9pQ8C1mujSS6I5JW?e=download&authuser=0",
       title: "AUTUMN COLLECTION",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fcf1ed",
     },
     {
       id: 3,
-      img: "https://i.ibb.co/cXFnLLV/3.png",
+      img: "https://doc-0s-28-docs.googleusercontent.com/docs/securesc/3dtb9qc2m2b7blg456v95s1uchfcsol5/e6c6atl32v5i7thcrenh11qjaj6a6vkq/1643635800000/12937131976522811804/12937131976522811804/1RVo_ZHA2kqgELd3A_jOQwgmKCNFUCQoc?e=download&authuser=0",
       title: "LOUNGEWEAR LOVE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fbf0f4",
@@ -25,17 +26,17 @@ export const sliderItems = [
   export const categories = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      img: "https://images.unsplash.com/photo-1587780553753-cc0444eb9ca1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=lucas-lenzi-2_TogeJgKI0-unsplash.jpg&w=640",
       title: "SHIRT STYLE!",
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      img: "https://images.pexels.com/photos/2731361/pexels-photo-2731361.jpeg?crop=entropy&cs=srgb&dl=pexels-nappy-2731361.jpg&fit=crop&fm=jpg&h=1007&w=640",
       title: "LOUNGEWEAR LOVE",
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      img: "https://images.unsplash.com/photo-1618554741958-df3cffedc372?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=vladimir-yelizarov-i3qQBFV2ZTE-unsplash.jpg&w=640",
       title: "LIGHT JACKETS",
     },
   ];

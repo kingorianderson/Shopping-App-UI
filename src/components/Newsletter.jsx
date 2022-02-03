@@ -19,8 +19,25 @@ const Desc = styled.div`
   font-weight: 300;
   margin-bottom: 20px;
 `;
-
-
+const InputContainer = styled.div`
+  width: 50%;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+`;
+const Input = styled.input`
+  border: none;
+  flex: 8;
+  padding-left: 20px;
+`;
+const Button = styled.button`
+  flex: 1;
+  border: none;
+  background-color: #006666;
+  color: white;
+`;
 
 const Newsletter = () => {
   return (

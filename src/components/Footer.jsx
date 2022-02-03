@@ -52,7 +52,20 @@ const ListItem = styled.li`
   width: 50%;
   margin-bottom: 10px;
 `;
+const Right = styled.div`
+  flex: 1;
+  padding: 20px;
+`;
 
+const ContactItem = styled.div`
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+`;
+
+const Payment = styled.img`
+  width: 50%;
+`;
 
 
 const Footer = () => {

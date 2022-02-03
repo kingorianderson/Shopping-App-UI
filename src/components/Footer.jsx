@@ -20,6 +20,17 @@ const Desc = styled.p`
 const SocialContainer = styled.div`
   display: flex;
 `;
+const SocialIcon = styled.div`
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  background-color: #${(props)=> props.color}; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+`;
 
 
 

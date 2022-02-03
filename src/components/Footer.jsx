@@ -2,6 +2,25 @@ import { Facebook, Instagram, MailOutline, Phone, Room, Twitter } from "@materia
 import styled from "styled-components";
 
 
+const Container = styled.div`
+  display: flex;
+`;
+const Left = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+`;
+
+const Logo = styled.h1``;
+const Desc = styled.p`
+  margin: 20px 0px;
+`;
+const SocialContainer = styled.div`
+  display: flex;
+`;
+
 
 
 const Footer = () => {

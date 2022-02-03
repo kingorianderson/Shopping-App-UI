@@ -21,6 +21,7 @@ const Desc = styled.div`
 `;
 
 
+
 const Newsletter = () => {
   return (
       <Container>

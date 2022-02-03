@@ -22,4 +22,29 @@ const Right = styled.div`
 `;
 
 
+const Footer = () => {
+  return 
+  <Container>
+     <Left>
+         <Logo>Kings.</Logo>
+         <Desc>Ecommerce is the buying and selling of goods and services over the Internet.
+               It is conducted over computers, tablets, smartphones, and other smart devices.
+         </Desc>
+         <SocialContainer>
+             <SocialIcon>
+                 <Twitter/>
+             </SocialIcon>
+             <SocialIcon>
+                 <Facebook/>
+             </SocialIcon>
+             <SocialIcon>
+                 <Instagram/>
+             </SocialIcon>
+         </SocialContainer>
+     </Left>
+     <Center></Center>
+     <Right></Right>
+  </Container>;
+};
 
+export default Footer;

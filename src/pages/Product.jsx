@@ -1,3 +1,5 @@
+import { Button } from "@material-ui/core";
+import { Add, Remove } from "@material-ui/icons";
 import styled from "styled-components";
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
@@ -35,11 +37,31 @@ const Price = styled.span`
   font-size: 40px;
 `;
 
-const FilterContainer = styled.div``;    
-const Filter = styled.div``;  
-const FilterTitle = styled.span``;  
-const FilterColor = styled.div``;  
-const FilterSize = styled.select``;  
+const FilterContainer = styled.div`
+  width: 50%;
+  margin: 30px 0px;
+  justify-content: space-between;
+`;    
+const Filter = styled.div`
+  display: flex;
+  align-items: center;
+`;  
+const FilterTitle = styled.span`
+  font-weight: 200;
+  font-size: 20px;
+`;  
+const FilterColor = styled.div`
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: ${(props) => props.color};
+  margin: 0px 5px;
+  cursor: pointer;
+`;  
+const FilterSize = styled.select`
+  margin-left: 10px;
+  padding: 5px;
+`;  
 const FilterSizeOption = styled.option``;  
 
 
@@ -59,8 +81,9 @@ const Product = () => {
             <FilterContainer>
                 <Filter>
                     <FilterTitle>Color</FilterTitle>
-                    <FilterColor color="armygreen" />
-                    <FilterColor color="grey" />
+                    <FilterColor color="#4b5320" />
+                    <FilterColor color="#808080" />
+                    <FilterColor color="#000000" />
                 </Filter>
 
                 <Filter>
@@ -74,6 +97,15 @@ const Product = () => {
               </FilterSize>
             </Filter>
             </FilterContainer>
+
+            <AddContainer>
+                <AmountContainer>
+                    <Remove/>
+                    <Amount>1</Amount>
+                    <Add/>
+                </AmountContainer>
+                <Button>ADD TO CART</Button>
+            </AddContainer>
               </InfoContainer>
           </Wrapper>
           <Newsletter/>

@@ -63,9 +63,20 @@ const Details =styled.div`
 const ProductName =styled.span``;
 const ProductId =styled.span``;
 
-const ProductColor =styled.div``;
+const ProductColor =styled.div`
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: ${(props)=> props.color};
+`;
 const ProductSize =styled.span``;
-const PriceDetail =styled.div``;
+const PriceDetail =styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
 
 const ProductAmountContainer = styled.div``;
 const ProductAmount = styled.div``;
@@ -103,7 +114,7 @@ const Cart = () => {
                   <ProductId>
                     <b>ID:</b> 93813718293
                   </ProductId>
-                  <ProductColor color="#3C1361" />
+                  <ProductColor color="#52307C" />
                   <ProductSize>
                     <b>Size:</b> 37.5
                   </ProductSize>
@@ -115,7 +126,7 @@ const Cart = () => {
                   <ProductAmount>2</ProductAmount>
                   <Remove />
                 </ProductAmountContainer>
-                <ProductPrice>$ 30</ProductPrice>
+                <ProductPrice>Kes 4500</ProductPrice>
               </PriceDetail>
             </Product>
             <Hr />
@@ -141,7 +152,7 @@ const Cart = () => {
                   <ProductAmount>1</ProductAmount>
                   <Remove />
                 </ProductAmountContainer>
-                <ProductPrice>$ 20</ProductPrice>
+                <ProductPrice>Kes 550</ProductPrice>
               </PriceDetail>
             </Product>
                 </Info>

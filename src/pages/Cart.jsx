@@ -1,4 +1,6 @@
  
+import { Add, Remove } from '@material-ui/icons';
+import styled from 'styled-components';
 import Announcement from '../components/Announcement';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
@@ -27,7 +29,39 @@ const TopButton = styled.button`
                       props.type === "filled" ? "black" : "transparent"};
   color: ${(props) => props.type === "filled" && "white"};
 `;
-const Bottom = styled.div``;
+const TopTexts = styled.div``;
+const TopText = styled.span`
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0px 10px;
+`;
+const Bottom = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+const Info = styled.div`
+  flex: 3;
+`;
+
+const Product =styled.div``;
+const ProductDetail =styled.div``;
+const Image =styled.img``;
+const Details =styled.div``;
+const ProductName =styled.span``;
+const ProductId =styled.span``;
+
+const ProductColor =styled.div``;
+const ProductSize =styled.span``;
+const PriceDetail =styled.div``;
+
+const ProductAmountContainer = styled.div``;
+const ProductAmount = styled.div``;
+const ProductPrice = styled.div``;
+
+const Hr = styled.hr``;
+const Summary = styled.div``;
+
+
 
 const Cart = () => {
   return (

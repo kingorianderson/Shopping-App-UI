@@ -78,12 +78,32 @@ const PriceDetail =styled.div`
   justify-content: center;
 `;
 
-const ProductAmountContainer = styled.div``;
-const ProductAmount = styled.div``;
-const ProductPrice = styled.div``;
+const ProductAmountContainer = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+`;
+const ProductAmount = styled.div`
+  font-size: 24px;
+  margin: 5px;
+`;
+const ProductPrice = styled.div`
+  font-size: 30px;
+  font-weight: 200;
+`;
 
-const Hr = styled.hr``;
-const Summary = styled.div``;
+const Hr = styled.hr`
+  background-color: #EEE;
+  border: none;
+  height: 1px;
+`;
+const Summary = styled.div`
+  flex: 1;
+  border: 0.5px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+  height: 50vh;
+`;
 
 
 

@@ -6,13 +6,17 @@ import { tablet } from "../responsive";
 import { large } from "../responsive";
 
 const Container = styled.div`
-  display: flex;
+  
  
   ${mobile({ flexDirection: "column" })}
   ${tablet({ flexDirection: "column" })}
   ${tablet({ marginLeft: "20px" })}
   ${medium({ marginLeft: "40px" })}
   ${large({ marginLeft: "50px" })}
+  
+  ${tablet({ display: "grid" })}
+  ${medium({ display: "flex" })}
+  ${large({ display: "flex" })}
   
 `;
 const Left = styled.div`
@@ -75,7 +79,8 @@ const Right = styled.div`
 
 const CenterRight = styled.div`
   display: flex;
-${tablet({  display: "flex" })}
+  ${mobile({ flexDirection: "column" })}
+  ${tablet({  display: "flex" })}
 `;
 
 const ContactItem = styled.div`
@@ -114,7 +119,7 @@ const Footer = () => {
              </SocialIcon>
          </SocialContainer>
      </Left>
-     <CenterRight>
+    <CenterRight>
      <Center>
 
          <Title>Useful Links</Title>

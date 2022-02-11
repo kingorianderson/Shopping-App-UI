@@ -28,7 +28,7 @@ export const medium = (props)=> {
 
 export const large = (props)=> {
   return css`
-     @media (min-width: 1030px){
+     @media (min-width: 1023px){
         ${props}
     }
   `;

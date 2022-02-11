@@ -1,6 +1,7 @@
 import { SendRounded } from '@material-ui/icons';
 import styled from 'styled-components';
 import { mobile } from "../responsive";
+import { tablet } from "../responsive";
 
 
 const Container = styled.div`
@@ -20,6 +21,7 @@ const Desc = styled.div`
   font-weight: 300;
   margin-bottom: 20px;
   ${mobile({ textAlign: "center" })}
+  ${tablet({ textAlign: "center" })}
 `;
 const InputContainer = styled.div`
   width: 50%;
@@ -29,6 +31,7 @@ const InputContainer = styled.div`
   justify-content: space-between;
   border: 1px solid lightgray;
   ${mobile({ width: "80%" })}
+  ${tablet({ width: "80%" })}
 `;
 const Input = styled.input`
   border: none;

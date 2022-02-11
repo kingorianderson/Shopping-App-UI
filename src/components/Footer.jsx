@@ -62,6 +62,7 @@ const Right = styled.div`
   flex: 1;
   padding: 20px;
   ${ medium({ backgroundColor: "#fff8f8" })}
+  ${ mobile({ backgroundColor: "#fff8f8" })}
 `;
 
 const ContactItem = styled.div`

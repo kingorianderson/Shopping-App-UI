@@ -51,11 +51,14 @@ const Price = styled.span`
 
 const FilterContainer = styled.div`
   width: 50%;
+  
   margin: 30px 0px;
   display: flex;
   justify-content: space-between;
   ${mobile({ width: "100%" })}
   ${tablet({ width: "100%" })}
+  ${medium({ width: "100%" })}
+  ${large({ minWidth: "350px" })}
 `;    
 const Filter = styled.div`
   display: flex;
@@ -87,6 +90,8 @@ const AddContainer = styled.div`
   justify-content: space-between;
   ${mobile({ width: "100%" })}
   ${tablet({ width: "100%" })}
+  ${medium({ width: "100%" })}
+  ${large({ minWidth: "350px" })}
 `;
 const AmountContainer = styled.div`
   display: flex;

@@ -2,18 +2,25 @@ import { Facebook, Instagram, MailOutline, Phone, Room, Twitter } from "@materia
 import styled from "styled-components";
 import { medium } from "../responsive";
 import { mobile } from "../responsive";
-
+import { tablet } from "../responsive";
+import { large } from "../responsive";
 
 const Container = styled.div`
   display: flex;
-  ${medium({ flexDirection: "column" })}
+ 
   ${mobile({ flexDirection: "column" })}
+  ${tablet({ flexDirection: "column" })}
+  ${tablet({ marginLeft: "20px" })}
+  ${medium({ marginLeft: "40px" })}
+  ${large({ marginLeft: "50px" })}
+  
 `;
 const Left = styled.div`
-  flex: 1;
+  /*flex: 1;*/
   display: flex;
   flex-direction: column;
   padding: 20px;
+ 
   
 
 `;
@@ -40,7 +47,9 @@ const SocialIcon = styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
-  
+  ${ medium({ backgroundColor: "#fff8f8" })}
+  ${ mobile({ backgroundColor: "#fff8f8" })}
+  ${large({ marginLeft: "50px" })}
 `;
 
 const Title = styled.h3`
@@ -61,8 +70,12 @@ const ListItem = styled.li`
 const Right = styled.div`
   flex: 1;
   padding: 20px;
-  ${ medium({ backgroundColor: "#fff8f8" })}
-  ${ mobile({ backgroundColor: "#fff8f8" })}
+  
+`;
+
+const CenterRight = styled.div`
+  display: flex;
+${tablet({  display: "flex" })}
 `;
 
 const ContactItem = styled.div`
@@ -72,8 +85,10 @@ const ContactItem = styled.div`
 `;
 
 const Payment = styled.img`
-  width: 50%;
+  width: 70%;
   ${ mobile({ width: "70%" })}
+  ${ tablet({ width: "90%" })}
+  ${ medium({ width: "90%" })}
 `;
 
 
@@ -99,6 +114,7 @@ const Footer = () => {
              </SocialIcon>
          </SocialContainer>
      </Left>
+     <CenterRight>
      <Center>
 
          <Title>Useful Links</Title>
@@ -122,6 +138,7 @@ const Footer = () => {
          <ContactItem><MailOutline style={{marginRight:"10px"}}/>contact@kingori.co.ke</ContactItem>
          <Payment src="https://i.ibb.co/Njjh9rh/payment.png"/>
      </Right>
+     </CenterRight>
   </Container>
   );
 };

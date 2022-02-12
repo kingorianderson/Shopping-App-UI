@@ -3,10 +3,13 @@ import { Search, ShoppingCartOutlined } from '@material-ui/icons';
 import React from 'react';
 import styled from 'styled-components';
 import { mobile } from '../responsive';
+import { tablet } from '../responsive';
 
 const Container = styled.div`
    height: 60px;
    ${mobile({ height: "50px" })}
+   ${tablet({ height: "50px" })}
+
 `;
 const Wrapper = styled.div`
    padding: 10px 20px;
@@ -14,6 +17,7 @@ const Wrapper = styled.div`
    align-items: center;
    justify-content: space-between;
    ${mobile({ padding: "10px 0px" })}
+   ${tablet({ padding: "10px 0px" })}
 `;
 
 const Left = styled.div`
@@ -26,6 +30,7 @@ const Language = styled.span`
    font-size: 14px;
    cursor: pointer;
    ${mobile({ display: "none" })}
+   ${tablet({marginLeft: "10px"})}
 `;
 
 const SearchContainer = styled.div`
@@ -35,11 +40,13 @@ const SearchContainer = styled.div`
    margin-left: 25px;
    padding: 5px;
    ${mobile({marginLeft: "15px"})}
+   ${tablet({marginLeft: "5px"})}
 `;
 
 const Input = styled.input`
    border: none;
    ${mobile({ width: "50px" })}
+   ${tablet({ width: "70px" })}
 `;
 const Center = styled.div`
    flex: 1;
@@ -56,6 +63,7 @@ const Right = styled.div`
    align-items: center;
    justify-content: flex-end;
    ${mobile({ flex: 2, justifyContent: "center", })}
+   ${tablet({ flex: 2, justifyContent: "center", })}
 `;
 
 const MenuItem = styled.div`

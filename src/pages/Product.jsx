@@ -131,7 +131,7 @@ const Product = () => {
               <InfoContainer>
                   <Title>Tracksuit</Title>
                   <Desc>Tracksuit with half zip sweatshirt and skinny sweatpants.</Desc>
-            <Price>Kes 1500</Price>
+            <Price>KSh 1500</Price>
             <FilterContainer>
                 <Filter>
                     <FilterTitle>Color</FilterTitle>

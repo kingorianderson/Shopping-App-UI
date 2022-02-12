@@ -41,7 +41,7 @@ const Input = styled.input`
 const Button = styled.button`
   flex: 1;
   border: none;
-  background-color: #006666;
+  background-color:  #05445E;
   color: white;
 `;
 

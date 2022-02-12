@@ -1,5 +1,8 @@
 import styled from "styled-components";
+import Footer from "../components/Footer";
 import { mobile } from "../responsive";
+import { tablet } from "../responsive";
+import { medium } from "../responsive";
 
 const Container = styled.div`
   width: 100vw;
@@ -20,6 +23,8 @@ const Wrapper = styled.div`
   padding: 20px;
   background-color: white;
   ${mobile({ width: "75%" })}
+  ${tablet({ width: "50%" })}
+  ${medium({ width: "55%" })}
 `;
 const Form = styled.form`
   display: flex;
@@ -41,9 +46,10 @@ const Agreement = styled.span`
 `;
 const Button = styled.button`
   width: 40%;
+  height: 5vh;
   border: none;
   pading: 15px 20px;
-  background-color: teal;
+  background-color: #05445E;
   color: white;
   cursor: pointer;
 `;
@@ -67,8 +73,9 @@ const Register = () => {
                   <Button>CREATE</Button>
               </Form>
           </Wrapper>
-
+          
       </Container>
+      
   )
 };
 

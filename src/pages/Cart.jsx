@@ -33,6 +33,8 @@ const Top = styled.div`
 const TopButton = styled.button`
   padding: 10px;
   font-weight: 600;
+  
+  border-color: black;
   cursor: pointer;
   border: ${(props) => props.type === "filled" && "none"};
   background-color: ${(props) =>
@@ -60,6 +62,7 @@ const Info = styled.div`
 
 const Product =styled.div`
   display: flex;
+  margin-bottom: 3%;
   justify-content: space-between;
   ${mobile({ flexDirection: "column" })}
   ${tablet({ flexDirection: "column" })}
@@ -114,13 +117,14 @@ const ProductPrice = styled.div`
 `;
 
 const Hr = styled.hr`
-  background-color: #EEE;
+  background-color: #4d4d4d;
   border: none;
   height: 1px;
+  width: 98%;
 `;
 const Summary = styled.div`
   flex: 1;
-  border: 0.5px solid lightgray;
+  border: 0.5px solid black;
   border-radius: 10px;
   padding: 20px;
   height: 50vh;
@@ -146,6 +150,7 @@ const Button = styled.button`
   background-color: black;
   color: white;
   font-weight: 600;
+  border: none;
 `;
 
 const Cart = () => {

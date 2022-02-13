@@ -10,9 +10,12 @@ const Container = styled.div`
   background: linear-gradient(
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
-    ),
+    ), 
+    
+    /*
     url("https://i.ibb.co/bW6jMfg/stylish-woman-with-shopping-bags.jpg")
-      center;
+      center; */
+      
   background-size: cover;
   display: flex;
   align-items: center;

@@ -5,8 +5,8 @@ import { tablet } from "../responsive";
 
 
 const Container = styled.div`
-  height: 60vh;
-  background-color: #fcf5f5;
+  height: 50vh;
+  background-color: #e1eaea;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -102,8 +102,7 @@ const Footer = () => {
   <Container>
      <Left>
          <Logo>Kings.</Logo>
-         <Desc>Ecommerce is the buying and selling of goods and services over the Internet.
-               It is conducted over computers, tablets, smartphones, and other smart devices.
+         <Desc>An online shop evokes the physical analogy of buying products or services at a regular "bricks-and-mortar" retailer or shopping center; the process is called business-to-consumer (B2C) online shopping. 
          </Desc>
          <SocialContainer>
              <SocialIcon color="0d0d0d">

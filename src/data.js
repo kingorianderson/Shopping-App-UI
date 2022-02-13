@@ -5,21 +5,21 @@ export const sliderItems = [
       img: "https://i.ibb.co/K9qVQj9/1.png",
       title: "MAI ATAFO LOOK",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "f5fafd",
+      bg: "e1eaea",
     },
     {
       id: 2,
       img: "https://i.ibb.co/0MYrzFs/2.png",
       title: "YORUBA DRESS",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "fcf1ed",
+      bg: "ffe6cc",
     },
     {
       id: 3,
       img: "https://i.ibb.co/cQRKmND/3.png",
       title: "NANA JACKET DRESS",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "fbf0f4",
+      bg: "e9f6fb",
     },
   ];
 
